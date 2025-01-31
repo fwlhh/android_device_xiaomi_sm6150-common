@@ -417,4 +417,78 @@
         </interface>
         <fqname>@1.0::IXiaomiFingerprint/default</fqname>
     </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.lineage.powershare</name>
+        <version>1.0</version>
+        <interface>
+            <name>IPowerShare</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl" optional="true">
+        <name>android.hardware.tetheroffload</name>
+        <interface>
+            <name>IOffload</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl" optional="true">
+        <name>android.hardware.bluetooth</name>
+        <interface>
+            <name>IBluetoothHci</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl" optional="true">
+        <name>android.hardware.graphics.allocator</name>
+        <interface>
+            <name>IAllocator</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.lineage.touch</name>
+        <version>1.0</version>
+        <interface>
+            <name>IHighTouchPollingRate</name>
+            <instance>default</instance>
+        </interface>
+        <interface>
+            <name>IGloveMode</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.lineage.livedisplay</name>
+        <version>2.0-1</version>
+        <interface>
+            <name>IReadingEnhancement</name>
+            <instance>default</instance>
+        </interface>
+        <interface>
+            <name>IAntiFlicker</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl" optional="true">
+        <name>android.hardware.radio.ims</name>
+        <interface>
+            <name>IRadioIms</name>
+            <instance>slot2</instance>
+        </interface>
+    </hal>
+    <hal format="aidl" optional="true">
+        <name>android.hardware.dumpstate</name>
+        <interface>
+            <name>IDumpstateDevice</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl" optional="true">
+        <name>android.hardware.bluetooth.ranging</name>
+        <interface>
+            <name>IBluetoothChannelSounding</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
 </manifest>
